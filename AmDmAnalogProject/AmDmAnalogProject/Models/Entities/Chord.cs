@@ -8,7 +8,7 @@ namespace AmDmAnalogProject.Models.Entities
     public class Chord
     {
         public int Id { get; set; }
-        public int ChordName { get; set; }
-        public string ChordPicture { get; set; }
+        public string ChordName { get; set; }
+        public string PictureUrl { get; set; }
     }
 }
